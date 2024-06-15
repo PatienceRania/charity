@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="g">
+     
+    <nav class="nav">
+        <div class="flex flex-row items-center text-black font-bold">
+            <img src="/home/raniah/PERSONAL FILES/charity/images/logo.png" class="logo">
+            <h2 style="font-size: 24px;">Hasbiyallah <b class="p">Charity Foundation Ug</b></h2>
+            <div class="px-20">
+                <a href="/home/raniah/PERSONAL FILES/charity/index.html" class="px-4">Home</a>
+                <a href="/home/raniah/PERSONAL FILES/charity/about.html" class="px-4">About</a>
+                <a href="/home/raniah/PERSONAL FILES/charity/gallery.html" class="px-4">Gallery</a>
+               <!-- <a href="" class="px-4">News</a>-->
+                <a href="/home/raniah/PERSONAL FILES/charity/contact Us.html" class="px-4">Contact Info</a>
+            </div>
+        </div>
+    </nav>
+    <div class="gallery h-screen ">
+        <div class="card1 ">
+            <div class="container">
+                <p id="note"> Click Image to get a clear view</p>
+                <div class="row">
+                    <div class="col-5">
+                        <p  class="mb" > <b style="font-size: 40px"> GALLERY </b> 
+                      <hr>
+                        <p>The smallest act of kindness is heavy and worth.  </p>
+                        <p> No act of kindness, no matter how <p>small, is ever wasted.</p>
+                        <hr>
+
+                    </div>
+                    <div class="gallery-container" id="gallery-container">
+                        <!-- <img src="/home/raniah/PERSONAL FILES/charity/images/back.png" style="width:50px; cursor:pointer;" id="back-btn">*/-->
+                        <div id="gallery" class="grid-container" >
+                            <div class="card2 grid grid-cols-3 gap-4 col-6"> 
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/yassa.jpeg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0036.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0045.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0066.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0074.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0072.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0052.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0044.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0058.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/poor-africa-20.jpg" class="image" style="height: 200px">
+                                <img src="/home/raniah/PERSONAL FILES/charity/images/IMG-20240610-WA0039.jpg" class="image" style="height: 200px">
+                            </div>
+                        </div>
+                        
+                        <!-- <img src="/home/raniah/PERSONAL FILES/charity/images/next.png" style="width:50px; cursor:pointer;" id="next-btn">-->
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="end row">
+        <div id="quick"> 
+            <h4 style="font-size:25px"> <b> Quick links </b> </h4>
+           <p> <a href="">Terms and conditions of the Organization </a></p>
+          <p>  <a href="">Learn how to recite the Quran </a></p>
+            <p><a href="">Dawa </a></p>
+            <p><a href="">Support Us </a></p>
+            <p><a href="">Scholarships </a></p>
+        </div>
+
+        <div id="contact"> 
+            <h4 style="font-size:25px"> <b> Contact Us </b> </h4>
+      <!--     <img src="/home/raniah/PERSONAL FILES/charity/images/insta.png" style="width:30px"><p></p>-->
+           <div class="row">
+           <img src="/home/raniah/PERSONAL FILES/charity/images/facebook.png" style="width:30px">
+           <p><pre> Hasbiyallah Charity Foundation Uganda </pre> </p>
+           </div>
+
+           <div class="row">
+           <img src="/home/raniah/PERSONAL FILES/charity/images/linked.png" style="width:30px">
+            <p><pre> Hasbiyallah Charity Foundation Uganda</pre> </p>
+           </div>
+           <div class="row">
+           <img src="/home/raniah/PERSONAL FILES/charity/images/email.png" style="width:30px">
+           <p> <pre> hasbiyallahcharity16@gmail.com </pre></p>
+           </div>
+           <div class="row">
+           <img src="/home/raniah/PERSONAL FILES/charity/images/phone.png" style="width:30px">
+            <p> <pre> 0750357139 / 0702312864 / 0702195990 </pre></p>
+           </div>
+        
+        
+        </div>
+
+    </div>
+    <div id="fullscreen-modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center">
+        <img id="fullscreen-image" class="max-h-screen" src="" alt="Fullscreen Image">
+        <button id="close-fullscreen-btn" class="absolute top-5 right-5 text-white text-2xl">&times;</button>
+    </div>
+    <script src="gallery.js"></script>
+    <script src="/home/raniah/PERSONAL FILES/charity/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
