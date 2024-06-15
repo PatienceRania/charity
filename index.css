@@ -4,6 +4,7 @@
     width: 100%;
    
 }
+<<<<<<< HEAD
 
 #team{
     margin-top: 50px;
@@ -157,6 +158,11 @@
     margin-left: 90px;
 }
 
+=======
+.ph{
+    margin-left: 100px;
+}
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
 .logo{
     width: 80px;
 }
@@ -188,6 +194,7 @@ a:hover{
         font-size: 50px;
         
     }
+<<<<<<< HEAD
    
     h2{
         color: white;
@@ -201,6 +208,10 @@ a:hover{
         font-weight: bold;
     }
  
+=======
+    margin-top: 70px;
+    margin-bottom: 30px;
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
     .col-5{
         border-top-left-radius: 60%;
         border-bottom-left-radius: 0;
@@ -208,6 +219,7 @@ a:hover{
         border-bottom-right-radius: 0;
         overflow: hidden;
     }
+<<<<<<< HEAD
     .container{
         margin-top: 70px;
     }
@@ -227,6 +239,12 @@ a:hover{
     margin-top: 50px;
     margin-left: 100px;
 }
+=======
+    
+}
+
+
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
 
 
 .cont{
@@ -237,7 +255,12 @@ a:hover{
     background-position: center ;
     background-size: cover;
     width: 100%;
+<<<<<<< HEAD
     height: 110vh;
+=======
+    height: 220vh;
+
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
 }
 
 .row {
@@ -253,7 +276,11 @@ a:hover{
 
 .my_text {
     color: white;
+<<<<<<< HEAD
     margin-top: 90px;
+=======
+    margin-top: 170px;
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
     margin-left: 100px;
     margin-right: 200px;
 }
@@ -266,12 +293,15 @@ a:hover{
     margin-top: 150px;
 }
 
+<<<<<<< HEAD
 .btn{
     margin-top: 50px;
     margin-left: 500px;
  
 }
 
+=======
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
 .my_btn1 {
     color: white;
     margin-top: 70px;
@@ -304,6 +334,7 @@ a:hover{
     color: black;
     background-color: white; 
 }
+<<<<<<< HEAD
 
 
 .card {
@@ -403,3 +434,5 @@ a:hover{
     margin-left: 200px;
     color: red;
 }
+=======
+>>>>>>> b1f061e8b5138ac3a3d1bef044ada73a1bd9c4ed
